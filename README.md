@@ -15,7 +15,7 @@ After taking a look at Andrew Kensler's raytracer on a business card (inspired b
 ---
 
 In case you decide you want to switch out my initials for your own, there are some things to note.
-First of all, practice the design using a 9x19 grid of 1s and 0s. Put a 1 where you want a ball, and 0 everwhere else. In my case:
+First of all, practice the design using a 19x9 grid of 1s and 0s. Put a 1 where you want a ball, and 0 everwhere else. In my case:
 
 0000000000000000000  
 0000100000000000100  
@@ -36,4 +36,4 @@ Similarly, you have 19 columns to work with, but can increase that by changing t
 
 ---
 
-All of this was done in less than a day, so it's definitely nowhere near perfect. To the best of my ability, I tried to annotate how the source code works or otherwise explain things here. The code is more fragile than you might think. Certain wrong color values can screw up the whole image, so tread carefully when experimenting with that. It also gets really dark if you set nRays to a low number, and the colors get messed up if nRays is set too high (for example, 128 rays). Figuring out the camera location and angle stuff can also be a bit tricky.
+All of this was done in less than a day, so it's definitely nowhere near perfect. To the best of my ability, I tried to annotate how the source code works or otherwise explain things here. The code is more fragile than you might think. Certain wrong color values can screw up the whole image, so tread carefully when experimenting with that. It also gets really dark if you set nRays to a low number (like 4 rays), and the colors get messed up if nRays is set too high (for example, 128 rays). Figuring out the camera location and angle stuff can also be a bit tricky.
