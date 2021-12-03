@@ -37,3 +37,9 @@ Similarly, you have 19 columns to work with, but can increase that by changing t
 ---
 
 All of this was done in less than a day, so it's definitely nowhere near perfect. To the best of my ability, I tried to annotate how the source code works or otherwise explain things here. The code is more fragile than you might think. Certain wrong color values can screw up the whole image, so tread carefully when experimenting with that. It also gets really dark if you set nRays to a low number (like 4 rays), and the colors get messed up if nRays is set too high (for example, 128 rays). Figuring out the camera location and angle stuff can also be a bit tricky.
+
+# Putting it on a business card:
+
+If you would like to fit this onto your business card, make sure you start with a 3.75" x 2.25" size image to account for the 1/8" cutoff areas on either side of the card (if your card's size is the standard 3.5" x 2"). Make your image 300dpi. I have included a template with the proper sizing and dpi and shows the 1/8" cutoff areas. If you would like to use an online business card creator in place of uploading an image, keep in mind that many places don't support fonts or sizes (6pt font) that would fit everything. I've found that zazzle.com and overnightprints.com have one or two fonts that you could make work. Alternatively, you could even use mine, though be forwarned that it displays my initials: AJ.
+
+![The back of my business card](/business_card_back.png)
